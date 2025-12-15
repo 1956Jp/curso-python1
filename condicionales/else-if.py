@@ -1,5 +1,5 @@
 
-ingreso_mensual = 201
+ingreso_mensual = 90
 
 
 if ingreso_mensual > 10000:
