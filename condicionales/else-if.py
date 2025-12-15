@@ -1,5 +1,6 @@
 
-ingreso_mensual = 10001
+ingreso_mensual = 201
+
 
 if ingreso_mensual > 10000:
     print("Esta bien en cualquier parte del mundo")
