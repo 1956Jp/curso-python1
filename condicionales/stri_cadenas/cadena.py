@@ -31,7 +31,7 @@ cadena2 = "Viembenidos a Yaritagua"
 
 #resultado = "Hola mostro como andas".upper()
 #resultado = cadena1.lower() 
-resultado = cadena1.capitalize() 
+#resultado = cadena1.capitalize() 
 #resultado = cadena1.upper() 
  
 
