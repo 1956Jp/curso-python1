@@ -11,7 +11,7 @@ crudo_dalto = 3.5
 #diferencias de duracion
 
 diferencia_con_min = 100 - dalto_curso / otros_cursos_min * 100
-diferencia_con_max = 100 - dalto_curso * 1000  // otros_cursos_max * 10
+diferencia_con_max = 100 - dalto_curso * 1000  // otros_cursos_max / 10
 diferencia_con_promedios = 100 - dalto_curso / otros_cursos_promedios * 100
 
 #calculando el porcentaje de tiempo vacio removido
@@ -26,7 +26,7 @@ print(f'El curso de dalton dura un {diferencia_con_promedios}% menos que el mas 
 
 #mostrando la cantidad de espacios vacios que se remueven (ejercicio B)
 print(f'Un curso promedio elimina un {tiempo_vacio_promedio}% de tiempo vacio')
-print(f'Este curso elimino el{tiempo_vacio_dalto}% de tiempovacio')
+print(f'Este curso elimino el {tiempo_vacio_dalto}% de tiempovacio')
 
 #mostrando diferencias si los cursos duraran 10 horas
-print(f"Ver 10 horas de este curso equivale a ver{otros_cursos_promedios * 1000 // dalto_curso / 10} horas de otros cursos ")
+print(f"Ver 10 horas de este curso equivale a ver{otros_cursos_promedios * 1000 // dalto_curso / 100} horas de otros cursos ")
