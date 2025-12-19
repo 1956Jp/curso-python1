@@ -29,4 +29,4 @@ print(f'Un curso promedio elimina un {tiempo_vacio_promedio}% de tiempo vacio')
 print(f'Este curso elimino el {tiempo_vacio_dalto}% de tiempovacio')
 
 #mostrando diferencias si los cursos duraran 10 horas
-print(f"Ver 10 horas de este curso equivale a ver{otros_cursos_promedios * 1000 // dalto_curso / 100} horas de otros cursos ")
+print(f"Ver 10 horas de este curso equivale a ver {otros_cursos_promedios * 100 // dalto_curso / 10} horas de otros cursos ")
