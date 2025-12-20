@@ -1,7 +1,7 @@
 import string
 import random
 
-longitud = int(input("Ingrese el tamano de la contra sena: "))
+longitud = int(input("Ingrese el tamano de la contrasena: "))
 
 caracteres = string.ascii_letters + string.digits + string.punctuation
 
